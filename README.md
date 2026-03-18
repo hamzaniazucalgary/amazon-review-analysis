@@ -14,20 +14,6 @@ Large-scale sentiment analysis on Amazon product reviews using PySpark distribut
 - **Streamlit** interactive demo app
 - **Scalability analysis** from 36K to 3.6M training samples
 
-## Results
-
-| Model | Features | Accuracy | F1 | AUC | Training Time |
-|-------|----------|----------|-----|-----|---------------|
-| Logistic Regression | CountVectorizer | 90.17% | 90.15% | 96.16% | ~5 min |
-| Logistic Regression | TF-IDF | ~90.0% | ~90.0% | ~96.0% | ~5 min |
-| Logistic Regression | N-gram CV | ~90.1% | ~90.1% | ~96.1% | ~8 min |
-| Logistic Regression | N-gram TF-IDF | ~90.0% | ~90.0% | ~96.0% | ~8 min |
-| Naive Bayes | CountVectorizer | ~88.5% | ~88.5% | ~95.0% | ~3 min |
-| Naive Bayes | TF-IDF | ~88.0% | ~88.0% | ~94.5% | ~3 min |
-| Random Forest | CountVectorizer | ~85.0% | ~85.0% | ~92.0% | ~15 min |
-| GBT | CountVectorizer | ~86.0% | ~86.0% | N/A | ~30 min |
-
-*Approximate values shown for models not yet run. Exact results logged in MLflow after training.*
 
 ## Quick Start
 
