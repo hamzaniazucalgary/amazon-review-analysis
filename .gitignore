@@ -1,0 +1,51 @@
+# Data files
+data/*.csv
+data/*.parquet
+
+# PySpark artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+
+# Model artifacts
+app/model_artifacts/*.pkl
+app/model_artifacts/spark_model/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java
+*.jar
+
+# Claude Code
+.claude/
+
+# Runtime artifacts
+overnight_progress.json
+overnight.log
+transformer_results/
+transformer_logs/
+
+# Misc
+*.log

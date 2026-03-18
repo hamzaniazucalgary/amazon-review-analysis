@@ -1,0 +1,12 @@
+# Normalize line endings
+* text=auto
+*.py text eol=lf
+*.ipynb text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+
+# Binary files
+*.png binary
+*.pkl binary
+*.parquet binary
