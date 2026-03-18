@@ -29,18 +29,6 @@ Large-scale sentiment analysis on Amazon product reviews using PySpark distribut
 
 *Approximate values shown for models not yet run. Exact results logged in MLflow after training.*
 
-## Key Visualizations
-
-<p align="center">
-  <img src="docs/wordclouds.png" alt="Word Clouds" width="45%"/>
-  <img src="docs/model_comparison.png" alt="Model Comparison" width="45%"/>
-</p>
-<p align="center">
-  <img src="docs/confusion_matrix.png" alt="Confusion Matrix" width="30%"/>
-  <img src="docs/roc_curve.png" alt="ROC Curve" width="30%"/>
-  <img src="docs/scalability.png" alt="Scalability" width="30%"/>
-</p>
-
 ## Quick Start
 
 ### Option 1: Google Colab (Easiest)
